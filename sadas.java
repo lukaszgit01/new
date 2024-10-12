@@ -50,11 +50,11 @@ public class sadas {
 //        System.out.println(i + " ");
 //        ++i;
        }
-        Scanner scanner = new Scanner (System.in);
-        System.out.println("Podaj liczbę");
-        int input_Number = scanner.nextInt();
-
-        System.out.println()
+//        Scanner scanner = new Scanner (System.in);
+//        System.out.println("Podaj liczbę");
+//        int input_Number = scanner.nextInt();
+//
+//        System.out.println(dd)
 
 
     }
