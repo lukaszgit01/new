@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exercise {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj swoój dochód: ");
+        int earn = scanner.nextInt();
+
+
+        if (earn <= 85528){
+            System.out.println(earn * 0.18);
+        }
+
+        else {
+            double second_Tax = 15395.04 + (earn - 85528) * 0.32;
+            System.out.println(second_Tax);
+
+//  tax < 0 ? 0 tax
+        }
+    }
+
+}
